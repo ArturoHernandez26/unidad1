@@ -10,5 +10,5 @@ then(data=>{
     data.items.forEach(category =>{
         const categoryTitle = document.createElement('h2');
         //
-    })
+    });
 })
