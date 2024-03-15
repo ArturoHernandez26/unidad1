@@ -12,5 +12,6 @@ then(data=>{
         //Que hace? Aqui se crea un elemento h2,se asigna el nombre de la categoria como su contenido de texto , y luego se añade este titulo al contenedor menu/.
         categoryTitle.textContent= category.category;
         menuContainer.appendChild(categoryTitle);
+const table = document.createElement('table');
     });
 })
