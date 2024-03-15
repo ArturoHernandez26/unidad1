@@ -9,6 +9,8 @@ then(data=>{
     //Que hace? Aui se procesa los datos JSON ya convertidos. Se obtiene una referencia al contenido del menu en el HTML mediante getElementBYid ('menu-container'),y luego se itera sobre los elementos(caracteristicas)del menu.
     data.items.forEach(category =>{
         const categoryTitle = document.createElement('h2');
-        //
+        //Que hace? Aqui se crea un elemento h2,se asigna el nombre de la categoria como su contenido de texto , y luego se añade este titulo al contenedor menu/.
+        categoryTitle.textContent= category.category;
+        menuContainer.appendChild(categoryTitle);
     });
 })
