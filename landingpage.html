@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>link</title>
+</head>
+<body>
+    <style>
+        body,html{
+            margin: 0;
+            padding: 0;
+            width: 50%;
+            height: 50%;
+        }
+        .link{
+            position: relative;
+            width: 700px;
+            height: 700px;
+            background: url('img/link.png')no-repeat center
+            center/cover;
+            opacity: 50%;
+            left: 100px;
+            top: 50px;
+        }
+        .texto-presentacion{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%,-50%);
+            color: red;
+            text-align: center;
+            text-shadow: 1px 1px 2px black;
+        }
+        .cuadrado{
+            height: 300px;
+            width: 300px;
+            background-color: beige;
+            position: absolute;
+        }
+        .ojos{
+        
+        }
+        .triangulo{
+            width: 0;
+            height: 0;
+            border-left: 40px solid transparent;
+            border-right: 40px solid transparent;
+            border-bottom: 80px solid black;
+        }
+        .trianguloizquierda{
+            width: 0;
+            height: 0;
+            border-top:  40px solid transparent;
+            border-right: 40px solid black;
+            border-bottom: 40px solid transparent;
+            -moz-border-radius: 0 100px 100px 0;
+            -webkit-border-readius: 0 100px 100px 0 ;
+            border-radius:0 100px 100px 0;
+        }
+        .elipse{
+            width: 150px;
+            height: 150px;
+            background-color: black;
+            border: 2px solid white;
+
+        }
+    </style>
+    <div class="link">
+        <div class="texto-presentacion">
+            <h1>mi primer dibujo en CSS</h1>
+            <h2>diseñado por:Arturo Hernandez</h2>
+            <p>De la especialidad de programacion de 4 semestre de la escuela cetis131</p>
+        </div>
+    </div>
+    <div class="cuadrado" style="left: 170px; top: 100px; border-radius: 50%;"></div>
+    <div class="cuadrado" style="left: 170px; top: 300px;height: 350px;color: green;"></div>
+    <div class="triangulo" style="left: 170px; top: 100px; ;"></div>
+    <div class=""></div>
+</body>
+</html>
